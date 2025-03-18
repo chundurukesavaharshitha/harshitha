@@ -1,0 +1,228 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+/*General Navbar Styling */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/* Navbar link list styling */
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar-nav.navbar-right {
+  float: right; /* Moves the right navigation items to the left corner */
+  margin-left: auto; 
+  background-color: #333;
+  
+}
+
+/* Navbar link styling */
+.navbar-nav li {
+  margin-right: 15px;
+}
+
+.navbar-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+}
+
+/* Hover effect */
+.navbar-nav li a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* Active link */
+.navbar-nav .active a {
+  background-color: #666;
+  border-radius: 4px;
+}
+
+/* Right-aligned links */
+.navbar-nav.navbar-right {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+/* Home Container */
+.home-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: right;
+  margin-left: auto;
+    height: 50px;
+}
+
+/* Title and Description */
+.home-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Button Styling */
+.button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #1e1f1e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.button:hover {
+  background-color: #d4d0d0;
+}
+
+/* Image Styling */
+.image {
+  width: 50%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+  filter: grayscale(100%); 
+}
+
+/* Subtitle Section */
+.para {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  position: relative;
+  height: 1.5em;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+}
+.para span {
+  position: absolute;
+  opacity: 0;
+  animation: changeText 8s infinite;
+}
+
+.para span:nth-child(1) {
+  animation-delay: 0s;
+}
+.para span:nth-child(2) {
+  animation-delay: 2s;
+}
+.para span:nth-child(3) {
+  animation-delay: 4s;
+}
+.para span:nth-child(4) {
+  animation-delay: 6s;
+}
+
+@keyframes changeText {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  25% { opacity: 1; }
+  35% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+
+
+.h3 {
+  margin: 20px 0;
+}
+
+.h3 h3 {
+  margin: 8px 0;
+  color: #333;
+  font-weight: normal;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Card Styling */
+.card {
+  background-color: #e7e7e7;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card li {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
