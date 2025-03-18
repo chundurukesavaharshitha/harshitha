@@ -28,12 +28,15 @@ body {
   margin: 0;
   padding: 0;
   
+<<<<<<< Updated upstream
+=======
 }
 
 .navbar-nav.navbar-right {
   float: right; /* Moves the right navigation items to the left corner */
   margin-left: auto; 
   background-color: #333;
+>>>>>>> Stashed changes
   
 }
 
@@ -140,6 +143,130 @@ body {
   align-items: center;
   overflow: hidden;
   
+<<<<<<< Updated upstream
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #8bc34a;
+  }
+  
+  /* Main Content Styles */
+  .main {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f4f4f4;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-title {
+    font-size: 36px;
+    color: #2e865f;
+    margin-bottom: 10px;
+  }
+  
+  .main-description {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .main-button {
+    background-color: #2e865f;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .main-button:hover {
+    background-color: #256d4a;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  .message {
+    color: red;
+  }
+  
+=======
 }
 .para span {
   position: absolute;
@@ -226,3 +353,4 @@ body {
   width: 100%;
   font-size: 14px;
 }
+>>>>>>> Stashed changes
