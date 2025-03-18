@@ -27,17 +27,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  
-<<<<<<< Updated upstream
-=======
-}
-
-.navbar-nav.navbar-right {
-  float: right; /* Moves the right navigation items to the left corner */
-  margin-left: auto; 
-  background-color: #333;
->>>>>>> Stashed changes
-  
+    
 }
 
 /* Navbar link styling */
